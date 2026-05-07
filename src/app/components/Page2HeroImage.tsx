@@ -3,6 +3,8 @@ import { useState, useRef, useCallback } from "react";
 const HERO_IMAGES = [
   "/hero-bedroom-1.jpg",
   "/hero-bedroom-2.jpg",
+  "/Monarch Image -3.png",
+  "/Monarch Image -4.png",
 ];
 
 const INTEGRITY_ITEMS = [
