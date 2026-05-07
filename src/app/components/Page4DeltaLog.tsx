@@ -157,6 +157,20 @@ export function Page4DeltaLog() {
             </div>
           </div>
           <div className="flex items-center gap-6">
+            <a
+              href="https://www.figma.com/design/WB57h0YjHk2OzBKBGFQBBK/Puffy-Case-Study-Naveen-Rajendran?node-id=0-1&t=y1tIDTwNPwNvnUUY-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-opacity hover:opacity-80 flex items-center gap-1.5"
+              style={{ fontSize: "12px", color: "#1047A9", fontWeight: 600, textDecoration: "none" }}
+            >
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+              </svg>
+              Figma Link
+            </a>
+            <div style={{ width: "1px", height: "28px", backgroundColor: "rgba(11,31,58,0.1)" }} />
             <div className="text-right">
               <div style={{ fontSize: "10px", fontWeight: 700, letterSpacing: "0.1em", color: "#9CA3AF" }}>PAGES</div>
               <div style={{ fontSize: "13px", fontWeight: 600, color: "#0B1F3A", marginTop: "2px" }}>4 of 4</div>

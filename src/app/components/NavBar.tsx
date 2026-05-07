@@ -47,8 +47,23 @@ export function NavBar() {
         ))}
       </div>
 
-      <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.5)", fontWeight: 400 }}>
-        Naveen Rajendran
+      <div className="flex items-center gap-5">
+        <a
+          href="https://www.figma.com/design/WB57h0YjHk2OzBKBGFQBBK/Puffy-Case-Study-Naveen-Rajendran?node-id=0-1&t=y1tIDTwNPwNvnUUY-1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-opacity hover:opacity-80 flex items-center gap-1.5"
+          style={{ fontSize: "12px", color: "#C9A96E", fontWeight: 600, textDecoration: "none" }}
+        >
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+          </svg>
+          Figma Link
+        </a>
+        <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.5)", fontWeight: 400 }}>
+          Naveen Rajendran
+        </div>
       </div>
     </nav>
   );
